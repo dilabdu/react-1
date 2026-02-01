@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+}
+
+.modal_body {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.modal_title {
+  font-size: 2rem;
+}
+
+.modal_description {
+  font-size: 1.6rem;
+}
+.modal_btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+}

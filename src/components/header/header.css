@@ -1,0 +1,33 @@
+.header {
+  background: #333;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.site-logo {
+  color: #f3f3f3;
+  font-size: 4rem;
+}
+
+.site-logo:hover {
+  background: #f3f3f3;
+  color: #333;
+}
+
+.sitenav {
+}
+.sitenav_list {
+  display: flex;
+  gap: 1rem;
+}
+.sitenav_item {
+}
+.sitenav_link {
+  color: #f3f3f3;
+  font-size: 2rem;
+}

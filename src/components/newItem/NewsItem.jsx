@@ -1,4 +1,3 @@
-import NewsItem from "../newItem/NewsItem";
 export default function NewsItem({ item, setShowModal, showModal }) {
   return (
     <section className="article container">

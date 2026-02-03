@@ -1,9 +1,10 @@
+import NewsItem from "../newItem/NewsItem";
 function NewsList({ readMore, news, setShowModal, showModal }) {
   return (
     <>
       {news.slice(0, readMore).map((item) => {
         return (
-          <Newsitem
+          <NewsItem
             key={item.id}
             item={item}
             setShowModal={setShowModal}

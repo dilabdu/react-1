@@ -1,6 +1,6 @@
 import Header from "./components/header/header";
 import Main from "./components/main/main";
-import Modal from "./components/modal/Modal";
+
 import Footer from "./components/footer/footer";
 import Test from "./components/test/test";
 function App() {
@@ -8,7 +8,6 @@ function App() {
     <>
       <Header />
       <Test />
-      <Modal />
       <Main />
       <Footer />
     </>

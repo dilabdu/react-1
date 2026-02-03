@@ -1,9 +1,9 @@
-function NewsList(readMore, news, setShowModal, showModal) {
+function NewsList({ readMore, news, setShowModal, showModal }) {
   return (
     <>
       {news.slice(0, readMore).map((item) => {
         return (
-          <NewsItem
+          <Newsitem
             key={item.id}
             item={item}
             setShowModal={setShowModal}

@@ -1,6 +1,6 @@
 import "./modal.css";
 
-export default function Modal(setShowModal, showModal) {
+export default function Modal({ setShowModal, showModal }) {
   return (
     <div className="modal">
       <div className="modal_body">
